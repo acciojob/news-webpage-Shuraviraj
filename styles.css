@@ -19,6 +19,7 @@ body {
   margin: 20px;
   padding: 20px;
   width: 20vw;
+  border-radius: 10px;
 }
 .main-article {
   display: inline-block;
@@ -27,6 +28,7 @@ body {
   text-align: center;
   margin: 20px;
   padding: 20px;
+  border-radius: 10px;
 }
 .pictorial-news-section {
   text-align: center;
@@ -36,11 +38,8 @@ body {
   margin: 20px;
   padding: 20px;
   width: 22vw;
+  border-radius: 10px;
 }
 .pictorial-news-section > img {
   width: 200px;
-}
-.border {
-  border: 2px solid black;
-  border-radius: 10px;
 }
