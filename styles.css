@@ -1,1 +1,46 @@
-/*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f5f5f5;
+}
+.header {
+  color: white;
+  background-color: #011e29;
+  text-align: center;
+  padding: 22px;
+}
+.latest-news-section {
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  padding: 20px;
+  width: 20vw;
+}
+.main-article {
+  display: inline-block;
+  width: 40vw;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.pictorial-news-section {
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  padding: 20px;
+  width: 22vw;
+}
+.pictorial-news-section > img {
+  width: 200px;
+}
+.border {
+  border: 2px solid black;
+  border-radius: 10px;
+}
