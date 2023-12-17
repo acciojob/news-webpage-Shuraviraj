@@ -42,4 +42,5 @@ body {
 }
 .pictorial-news-section > img {
   width: 200px;
+  text-align: center;
 }
